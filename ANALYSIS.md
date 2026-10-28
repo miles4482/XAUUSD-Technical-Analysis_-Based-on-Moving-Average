@@ -103,6 +103,41 @@ Asia and London already built the range: high 4,084.10 around 00:00 UTC, low 4,0
 - Spike through 3,989 / 3,955 and a fast reclaim of 4,000 → the sweep long, profits into supply.
 - A chop between 4,040 and 4,084 with no sweep → no trade.
 
+## Session plan from 17:41 Asia/Dhaka
+
+Price at this update: **4,060.90**. Unchanged in any way that matters from the 4,060.40 snapshot. Today’s futures range is still **4,040.50–4,084.10**. The last hour is a 15-minute coil between **4,056.40 and 4,061.40**.
+
+Times below are Asia/Dhaka. The Fed statement is 00:00 Thursday (2:00 PM US Eastern). The press conference is 00:30. One position at a time. One attempt per scenario. The New York scalp uses half the risk of the Fed trade. If neither 4,132 nor 3,989 trades, the session has no main trade.
+
+### Now until 18:30 — flat
+
+4,061 is the middle of the day range and the middle of the coil. No buy and no sell here. The only job is to mark two triggers:
+
+- A 15-minute close above **4,069.80** points at today’s high **4,084**. That is where the small sell lives.
+- A 15-minute close under **4,056.40** points at today’s low **4,040.50**. A later close under **4,029.90** is the only pre-Fed continuation short.
+
+### 18:30–21:00 — New York open, half size or nothing
+
+This window can set the trap before the statement. It is not the main trade.
+
+**Sell scalp, only on a second rejection of the high.** Price trades **4,078–4,086** (today’s high, the 4-hour EMA50, and the daily fair-value-gap midpoint) and a 15-minute candle closes back under **4,068**. Sell that close or the retest of 4,072–4,078. Stop **4,094**. First target **4,042**. Leave a runner only if 4,042 breaks before 21:00; the runner’s next level is **4,029.90**. If 4,094 trades, this scalp is finished and the path is higher, toward the real short zone. Do not turn it into a long.
+
+**Continuation sell, only on acceptance under the bounce gap.** A 15-minute close under **4,029.90** (which is also through today’s low). Sell the retest of **4,030–4,042**. Stop **4,062**, back inside the current coil. Targets **4,002** then **3,989**. Flatten this one by 23:00 even if it has not reached the target. Holding a discount short into the statement is the wrong risk.
+
+No dip buy at 4,040. Daily structure is still down, and that low is not a sweep of 3,989.
+
+### 21:00–23:30 — flat again
+
+Close whatever came from the New York window. No new order. Spreads widen into the statement.
+
+### 23:45–01:00 — the actual buy/sell plan
+
+**Sell.** The spike trades **4,132–4,161**. Wait for a 15-minute bearish displacement that leaves a fair value gap, and sell the retrace of that gap. Stop above the spike high, and always done if a 1-hour candle closes above **4,172**. Take pieces off at **4,084**, **4,040**, and **3,989–4,002**. The June–July pool at **3,955–3,976** is only for a daily close that holds under 3,989, so it is not a “today” target.
+
+**Buy.** The spike trades under **3,989**, and ideally into **3,955–3,976**, then a 15-minute candle closes back above **4,000** with displacement. Buy the first bullish 15-minute fair value gap after that reclaim. Stop under the sweep wick. Take pieces off at **4,040**, **4,084**, and **4,132**. The last scale is into the short zone, so the long ends there.
+
+If the statement runs both sides and price is back inside **4,040–4,084** by 01:00, the session is over.
+
 ## How this was measured
 
 `analyze.py` recomputes the moving averages, the swing structure, the open fair value gaps, the order block, and the discount/premium location from `data/gc_daily.json`, `data/gc_hourly.json`, and `data/gc_weekly.json`. Those files are the Yahoo Finance `GC=F` snapshot used for this read. `python3 analyze.py --live` refreshes them.
