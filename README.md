@@ -12,6 +12,8 @@ Structure is taken from December COMEX gold, which is about **$13 above spot** t
 - Main spot sell at **4,119–4,148** if the midnight spike reaches it and rejects. A 1-hour close above **4,159** cancels it.
 - Main spot buy only after a sweep under **3,976** that closes back above **3,987**.
 
+A 25bp hike’s free-fall floor is spot **3,942–3,963**. The range a hike does not close through is spot **3,888–3,923** (100-week average and the October 2025 low). A 25bp cut’s ceiling is spot **4,205–4,285**, where the weekly averages, the daily 50- and 100-period averages, and two unfilled bearish gaps overlap.
+
 ## Reproduce the levels
 
 ```bash

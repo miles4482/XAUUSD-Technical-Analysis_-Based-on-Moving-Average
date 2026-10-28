@@ -160,6 +160,71 @@ Close the New York trade. No new spot order.
 
 If neither spot 4,119 nor spot 3,976 trades, and price is back inside **4,028–4,071** by 01:00, the session is over.
 
+## If the Fed hikes, and if the Fed cuts
+
+Quote for this section: 18:19 Asia/Dhaka. Spot has lifted to about **4,057**. December futures, on a 10-minute delay, **4,062**. The shelves below are still futures structure translated by **spot = futures − 13**. A 25bp surprise moves gold through the nearest level. The ranges below are the ones with several independent reasons to hold on the first drive. A wick can pierce them. A daily close through them is the break.
+
+### Hike of 25bp, or a hold that threatens another hike
+
+Gold is a non-yielding asset. A higher policy rate lifts the dollar and real yields, so the metal is sold. From 4,057 the first liquidity is the 4,000 area. That is not a floor.
+
+| Shelf | Spot (order) | Futures (signal) | What it actually is | How it behaves on a hike |
+| --- | --- | --- | --- | --- |
+| Nearest liquidity | 3,976 – 4,000 | 3,989 – 4,013 | Round 4,000 on the spot chart, plus the 23 Oct and 26 Oct equal lows | Already tested twice this week. A hike drives through it. |
+| First strong floor | 3,942 – 3,963 | 3,955 – 3,976 | The 2026 swing low | Where a normal 25bp hike stops. |
+| Line in the sand | 3,888 – 3,923 | 3,901 – 3,936 | 100-week average and the October 2025 launch low | A 25bp hike does not close through this. |
+| Only if that close fails | 3,731 – 3,772 | 3,744 – 3,786 | Untouched weekly bullish fair value gap from Sep 2025 | Not a target of one hike. |
+
+The **3,942–3,963 spot** band is the strongest nearby support, and it is traded demand rather than a gap:
+
+- 24–25 Jun lows 3,975.7 and 3,976.3 futures, 30 Jun low **3,955.4**, 1 Jul low 3,973, 16 Jul low 3,973, 17 Jul low **3,963.0**. Six daily defences, three of them on separate weeks.
+- Closes held above it and price later rallied to the August high at 4,755. It is the low of the entire decline from the January 5,586 high.
+- October’s low at 3,989 futures is still a higher low against it, so the weekly uptrend from June is intact until this band goes.
+- 3,950 is the round number inside the band.
+
+A hike can spike into that band the same evening. The floor has held if the daily candle closes back above futures 3,976 (spot 3,963). A daily close under futures 3,955 (spot 3,942) means this shelf failed and the next one is in play.
+
+The range a single 25bp hike does not break is **spot 3,888–3,923** (futures 3,901–3,936). Five separate tools land there:
+
+- 28 Oct 2025 daily and weekly low **3,901.3**, the low that began the rally to 5,586.
+- 4–5 Nov 2025 second test at 3,935.7 and 3,937.1. Price never went back.
+- Weekly SMA100 at **3,904.5** and weekly EMA100 at **3,908.8**, sitting on that low.
+- The weekly bullish fair value gap of 6 Oct 2025 runs **3,824.6–3,909.2**. The 3,901 low tapped the top of it and left the rest unfilled.
+- The 3,900 round number.
+
+The weekly 200-period average is down at 3,234 futures. It is not part of this decision. If a daily close does settle under 3,901 futures, the next real bid is that unfilled September 2025 weekly gap, spot 3,731–3,772. A hawkish hold, with no actual hike, is the same direction with a shorter trip: it can test 3,942–3,963 and has less reason to reach 3,888.
+
+### Cut of 25bp, or a hold that opens the door to cuts
+
+A lower rate cuts the opportunity cost of holding gold and usually softens the dollar, so the metal is bought. The day high does not survive a real cut. The first supply can go too. The ceiling is the weekly-average cluster.
+
+| Shelf | Spot (order) | Futures (signal) | What it actually is | How it behaves on a cut |
+| --- | --- | --- | --- | --- |
+| Day high | 4,071 | 4,084 | 28 Oct high, 4-hour EMA50, midpoint of the daily bearish gap | A cut goes through it. |
+| First strong supply | 4,106 – 4,151 | 4,119 – 4,164 | Breakdown origin of the last two weeks | Real resistance. A true 25bp cut can still clear it. |
+| Ceiling of this rally | 4,205 – 4,285 | 4,218 – 4,298 | Weekly averages, daily EMA50 and EMA100, two bearish gaps, October highs | Where a cut-rally stops. |
+| Only if a later daily close clears 4,285 | 4,296 – 4,339, then 4,407 | 4,309 – 4,352, then 4,420 | 25 Sep bearish order block, then the daily EMA200 | Not a same-night target. |
+
+**Spot 4,106–4,151** is strong, and it is still only the last leg:
+
+- Untouched 4-hour bearish fair value gap **4,118.7–4,139.1** futures.
+- Falling daily EMA20 **4,142** and SMA20 **4,137**.
+- 21 Oct bearish order block, body 4,143.4–4,150.0, wick high 4,160.6.
+- The 0.62–0.79 retrace of the 4,220.4 to 3,989.1 swing sits at 4,132–4,172.
+
+The range a cut does not clear on the first drive is **spot 4,205–4,285** (futures 4,218–4,298). The hardest pocket inside it is **spot 4,236–4,256**. Count of independent reasons:
+
+- Daily EMA50 at 4,231.5.
+- Daily SMA100 at 4,250.5 and daily EMA100 at 4,298.3, which caps the band.
+- Weekly EMA20 4,268.8, weekly SMA20 4,248.8, weekly EMA50 4,253.2. Three weekly averages inside $20.
+- Weekly EMA40 at 4,292.9 reinforces the cap.
+- Daily bearish fair value gap of 29 Sep, **4,218.1–4,289.2**, touched and not filled.
+- Weekly bearish fair value gap of the week of 5 Oct, **4,233.7–4,278.3**, touched and not filled.
+- Swing highs inside the same prices: 16 Oct 4,220.4, 12 Oct 4,242.3, 2 Oct 4,259.
+- The 6-month EMA, built from the monthly resample, sits near 4,246.
+
+A daily close through futures 4,300 (spot 4,287) is the event that beats this ceiling. Until that close, strength into 4,205–4,285 is supply. Above it, the 25 Sep bearish order block and the 4,351.6 high (spot 4,296–4,339) are the next step, and the daily EMA200 at 4,420 (spot 4,407) is the cap of the following weeks. The daily SMA200 is 4,526. One 25bp cut does not travel from 4,057 to the 200-day on the same night. A dovish hold, with no actual cut, stalls earlier, at spot 4,106–4,151.
+
 ## How this was measured
 
 `analyze.py` recomputes the moving averages, the swing structure, the open fair value gaps, the order block, and the discount/premium location from `data/gc_daily.json`, `data/gc_hourly.json`, and `data/gc_weekly.json`. Those files are the Yahoo Finance `GC=F` snapshot used for this read. `python3 analyze.py --live` refreshes them.
