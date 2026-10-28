@@ -4,11 +4,13 @@ Analyze the GOLD (XAUUSD) chart with smart-money structure, ICT dealing ranges, 
 
 ## Current read
 
-**28 October 2026, 17:41 Asia/Dhaka. Futures last 4,060.90. Stay flat until a level breaks.**
+**28 October 2026, 18:03 Asia/Dhaka. Trade the spot chart. Spot mid 4,045. Stay flat until a spot level breaks.**
 
-Daily structure is bearish (lower high, lower low, price under the falling 20/50/100/200 EMAs). Price is only about 31% back up the active downswing, so it is still in discount. The high-probability idea is a **short at 4,132–4,161** if price reaches that supply after the Fed decision and a 15-minute or 1-hour bearish displacement prints there. Invalidation is a 1-hour close above 4,172. Downside liquidity is 3,989, then 3,955–3,976.
+Structure is taken from December COMEX gold, which is about **$13 above spot** today. Every order below is the spot price; the futures twin is in [ANALYSIS.md](ANALYSIS.md).
 
-From 17:41 the session plan is: nothing until New York; a half-size sell only on a rejection of 4,078–4,086 or a 15-minute close under 4,029.90; flat again from 21:00; the real sell is 4,132–4,161 and the real buy is a sweep of 3,989 that reclaims 4,000, both around the midnight Fed statement. Details are in [ANALYSIS.md](ANALYSIS.md).
+- Half-size spot sell at **4,065–4,073** only after a 15-minute close back under 4,055 (stop 4,081, target 4,029), or after a 15-minute close under **4,017**.
+- Main spot sell at **4,119–4,148** if the midnight spike reaches it and rejects. A 1-hour close above **4,159** cancels it.
+- Main spot buy only after a sweep under **3,976** that closes back above **3,987**.
 
 ## Reproduce the levels
 

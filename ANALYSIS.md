@@ -1,6 +1,6 @@
 # XAUUSD read — 28 October 2026, 17:15 Asia/Dhaka
 
-Educational technical read of GOLD using smart-money structure, ICT dealing-range rules, and moving averages. Not a recommendation to buy or sell, and not a signal service. Candles are COMEX gold futures (`GC=F`), the liquid proxy for spot XAUUSD. Spot was quoted in the same window around $4,047–$4,062, so treat every level as a zone of a few dollars, not a tick.
+Educational technical read of GOLD using smart-money structure, ICT dealing-range rules, and moving averages. Not a recommendation to buy or sell, and not a signal service. Structure is read from COMEX December 2026 gold futures, which lead spot. Execution prices in the session plan are **spot XAUUSD = futures − 13**. That $13 is the basis measured from today’s open, high, and low (futures richer by $12.3–$13.3). Earlier sections quote the futures price; the session plan is the order map.
 
 Snapshot: last futures print **4,060.40** at 11:15 UTC (17:15 Asia/Dhaka). The daily bar was still forming (high 4,084.10, low 4,040.50). The Federal Reserve decision is later the same day, 2:00 PM US Eastern, which is **midnight tonight Asia/Dhaka**.
 
@@ -103,40 +103,62 @@ Asia and London already built the range: high 4,084.10 around 00:00 UTC, low 4,0
 - Spike through 3,989 / 3,955 and a fast reclaim of 4,000 → the sweep long, profits into supply.
 - A chop between 4,040 and 4,084 with no sweep → no trade.
 
-## Session plan from 17:41 Asia/Dhaka
+## Spot orders, mapped from December futures
 
-Price at this update: **4,060.90**. Unchanged in any way that matters from the 4,060.40 snapshot. Today’s futures range is still **4,040.50–4,084.10**. The last hour is a 15-minute coil between **4,056.40 and 4,061.40**.
+Quote time **18:03 Asia/Dhaka** (12:03 UTC). Spot XAUUSD mid **4,045.6** (Swissquote; OANDA, FX, and Pepperstone lasts were 4,044.6–4,044.9). COMEX Dec 2026 futures **4,059.8**, and that futures feed is about 10 minutes delayed. Today’s futures range is 4,040.5–4,084.1. The same range on spot is **4,028.1–4,070.9**.
 
-Times below are Asia/Dhaka. The Fed statement is 00:00 Thursday (2:00 PM US Eastern). The press conference is 00:30. One position at a time. One attempt per scenario. The New York scalp uses half the risk of the Fed trade. If neither 4,132 nor 3,989 trades, the session has no main trade.
+Working conversion, used on every row below:
+
+**spot = futures − 13**
+
+Check the live gap once before the order. If Dec futures minus the broker’s spot mid is outside $12–$14, shift every spot number by the difference and leave the futures number alone. If the broker’s own mid is more than $2 away from 4,045, shift the spot column by that same amount.
+
+| Role | Spot XAUUSD (the order) | Dec futures (the signal) |
+| --- | --- | --- |
+| Price now | 4,045 | 4,060 delayed |
+| 15-minute coil | 4,043 – 4,048 | 4,056 – 4,061 |
+| Break upward tells a retest of the high | close above 4,057 | close above 4,070 |
+| Break downward tells a retest of the low | close under 4,043 | close under 4,056 |
+| Day high, where the small sell lives | 4,071 | 4,084 |
+| Small-sell zone | 4,065 – 4,073 | 4,078 – 4,086 |
+| Small-sell trigger, 15-minute close back under | 4,055 | 4,068 |
+| Small-sell stop | 4,081 | 4,094 |
+| Small-sell target | 4,029, then 4,017 | 4,042, then 4,030 |
+| Continuation trigger | 15-minute close under 4,017 | 15-minute close under 4,030 |
+| Continuation entry on the retest | 4,017 – 4,029 | 4,030 – 4,042 |
+| Continuation stop | 4,049 | 4,062 |
+| Continuation targets | 3,989, then 3,976 | 4,002, then 3,989 |
+| Main sell zone | 4,119 – 4,148 | 4,132 – 4,161 |
+| Main-sell invalidation, 1-hour close | above 4,159 | above 4,172 |
+| Main-sell targets | 4,071, then 4,028, then 3,976 | 4,084, then 4,041, then 3,989 |
+| Main buy: sweep this, then reclaim 3,987 | under 3,976, ideally 3,942 – 3,963 | under 3,989, ideally 3,955 – 3,976 |
+| Main-buy targets | 4,028, then 4,071, then 4,119 | 4,041, then 4,084, then 4,132 |
+
+Times below are Asia/Dhaka. The Fed statement is 00:00 Thursday (2:00 PM US Eastern). The press conference is 00:30. Place the orders on **spot**. One position at a time. One attempt per scenario. The New York trades use half the risk of the midnight trades.
 
 ### Now until 18:30 — flat
 
-4,061 is the middle of the day range and the middle of the coil. No buy and no sell here. The only job is to mark two triggers:
+Spot 4,045 is inside the coil at 4,043–4,048 and inside today’s spot range of 4,028–4,071. No buy and no sell.
 
-- A 15-minute close above **4,069.80** points at today’s high **4,084**. That is where the small sell lives.
-- A 15-minute close under **4,056.40** points at today’s low **4,040.50**. A later close under **4,029.90** is the only pre-Fed continuation short.
+### 18:30–21:00 — New York, half size
 
-### 18:30–21:00 — New York open, half size or nothing
+**Sell** if spot trades **4,065–4,073** and a 15-minute candle closes back under **4,055**. Stop **4,081**. Target **4,029**. A runner toward **4,017** only if 4,029 breaks before 21:00. A print of 4,081 ends the scalp; the path from there is the main sell zone at 4,119.
 
-This window can set the trap before the statement. It is not the main trade.
+**Sell** if a 15-minute candle closes under **4,017**. Sell the retest of **4,017–4,029**. Stop **4,049**. Targets **3,989**, then **3,976**. Close it by 23:00.
 
-**Sell scalp, only on a second rejection of the high.** Price trades **4,078–4,086** (today’s high, the 4-hour EMA50, and the daily fair-value-gap midpoint) and a 15-minute candle closes back under **4,068**. Sell that close or the retest of 4,072–4,078. Stop **4,094**. First target **4,042**. Leave a runner only if 4,042 breaks before 21:00; the runner’s next level is **4,029.90**. If 4,094 trades, this scalp is finished and the path is higher, toward the real short zone. Do not turn it into a long.
+No buy at 4,028 or 4,045. Those are not a sweep of 3,976.
 
-**Continuation sell, only on acceptance under the bounce gap.** A 15-minute close under **4,029.90** (which is also through today’s low). Sell the retest of **4,030–4,042**. Stop **4,062**, back inside the current coil. Targets **4,002** then **3,989**. Flatten this one by 23:00 even if it has not reached the target. Holding a discount short into the statement is the wrong risk.
+### 21:00–23:30 — flat
 
-No dip buy at 4,040. Daily structure is still down, and that low is not a sweep of 3,989.
+Close the New York trade. No new spot order.
 
-### 21:00–23:30 — flat again
+### 23:45–01:00 — main spot orders
 
-Close whatever came from the New York window. No new order. Spreads widen into the statement.
+**Sell** if the spike reaches spot **4,119–4,148** (futures 4,132–4,161) and a 15-minute bearish candle leaves a fair value gap. Sell the retrace of that gap. Stop above the spike. A 1-hour close above spot **4,159** kills it. Take profit at **4,071**, **4,028**, and **3,976**.
 
-### 23:45–01:00 — the actual buy/sell plan
+**Buy** if the spike trades under spot **3,976** (better into **3,942–3,963**) and a 15-minute candle closes back above **3,987**. Buy the first bullish 15-minute gap after that close. Stop under the wick. Take profit at **4,028**, **4,071**, and **4,119**.
 
-**Sell.** The spike trades **4,132–4,161**. Wait for a 15-minute bearish displacement that leaves a fair value gap, and sell the retrace of that gap. Stop above the spike high, and always done if a 1-hour candle closes above **4,172**. Take pieces off at **4,084**, **4,040**, and **3,989–4,002**. The June–July pool at **3,955–3,976** is only for a daily close that holds under 3,989, so it is not a “today” target.
-
-**Buy.** The spike trades under **3,989**, and ideally into **3,955–3,976**, then a 15-minute candle closes back above **4,000** with displacement. Buy the first bullish 15-minute fair value gap after that reclaim. Stop under the sweep wick. Take pieces off at **4,040**, **4,084**, and **4,132**. The last scale is into the short zone, so the long ends there.
-
-If the statement runs both sides and price is back inside **4,040–4,084** by 01:00, the session is over.
+If neither spot 4,119 nor spot 3,976 trades, and price is back inside **4,028–4,071** by 01:00, the session is over.
 
 ## How this was measured
 
