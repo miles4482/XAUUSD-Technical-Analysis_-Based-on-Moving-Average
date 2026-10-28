@@ -113,26 +113,26 @@ Working conversion, used on every row below:
 
 Check the live gap once before the order. If Dec futures minus the broker’s spot mid is outside $12–$14, shift every spot number by the difference and leave the futures number alone. If the broker’s own mid is more than $2 away from 4,045, shift the spot column by that same amount.
 
-| Role | Spot XAUUSD (the order) | Dec futures (the signal) |
-| --- | --- | --- |
-| Price now | 4,045 | 4,060 delayed |
-| 15-minute coil | 4,043 – 4,048 | 4,056 – 4,061 |
-| Break upward tells a retest of the high | close above 4,057 | close above 4,070 |
-| Break downward tells a retest of the low | close under 4,043 | close under 4,056 |
-| Day high, where the small sell lives | 4,071 | 4,084 |
-| Small-sell zone | 4,065 – 4,073 | 4,078 – 4,086 |
-| Small-sell trigger, 15-minute close back under | 4,055 | 4,068 |
-| Small-sell stop | 4,081 | 4,094 |
-| Small-sell target | 4,029, then 4,017 | 4,042, then 4,030 |
-| Continuation trigger | 15-minute close under 4,017 | 15-minute close under 4,030 |
-| Continuation entry on the retest | 4,017 – 4,029 | 4,030 – 4,042 |
-| Continuation stop | 4,049 | 4,062 |
-| Continuation targets | 3,989, then 3,976 | 4,002, then 3,989 |
-| Main sell zone | 4,119 – 4,148 | 4,132 – 4,161 |
-| Main-sell invalidation, 1-hour close | above 4,159 | above 4,172 |
-| Main-sell targets | 4,071, then 4,028, then 3,976 | 4,084, then 4,041, then 3,989 |
-| Main buy: sweep this, then reclaim 3,987 | under 3,976, ideally 3,942 – 3,963 | under 3,989, ideally 3,955 – 3,976 |
-| Main-buy targets | 4,028, then 4,071, then 4,119 | 4,041, then 4,084, then 4,132 |
+| Role | Spot XAUUSD |
+| --- | --- |
+| Price now | 4,052 at 18:56 Asia/Dhaka |
+| 15-minute coil | 4,043 – 4,048 |
+| Break upward tells a retest of the high | close above 4,057 |
+| Break downward tells a retest of the low | close under 4,043 |
+| Day high, where the small sell lives | 4,071 |
+| Small-sell zone | 4,065 – 4,073 |
+| Small-sell trigger, 15-minute close back under | 4,055 |
+| Small-sell stop | 4,081 |
+| Small-sell target | 4,029, then 4,017 |
+| Continuation trigger | 15-minute close under 4,017 |
+| Continuation entry on the retest | 4,017 – 4,029 |
+| Continuation stop | 4,049 |
+| Continuation targets | 3,989, then 3,976 |
+| Main sell zone | 4,119 – 4,148 |
+| Main-sell invalidation, 1-hour close | above 4,159 |
+| Main-sell targets | 4,071, then 4,028, then 3,976 |
+| Main buy: sweep this, then reclaim 3,987 | under 3,976, ideally 3,942 – 3,963 |
+| Main-buy targets | 4,028, then 4,071, then 4,119 |
 
 Times below are Asia/Dhaka. The Fed statement is 00:00 Thursday (2:00 PM US Eastern). The press conference is 00:30. Place the orders on **spot**. One position at a time. One attempt per scenario. The New York trades use half the risk of the midnight trades.
 
@@ -168,12 +168,12 @@ Quote for this section: 18:19 Asia/Dhaka. Spot has lifted to about **4,057**. De
 
 Gold is a non-yielding asset. A higher policy rate lifts the dollar and real yields, so the metal is sold. From 4,057 the first liquidity is the 4,000 area. That is not a floor.
 
-| Shelf | Spot (order) | Futures (signal) | What it actually is | How it behaves on a hike |
-| --- | --- | --- | --- | --- |
-| Nearest liquidity | 3,976 – 4,000 | 3,989 – 4,013 | Round 4,000 on the spot chart, plus the 23 Oct and 26 Oct equal lows | Already tested twice this week. A hike drives through it. |
-| First strong floor | 3,942 – 3,963 | 3,955 – 3,976 | The 2026 swing low | Where a normal 25bp hike stops. |
-| Line in the sand | 3,888 – 3,923 | 3,901 – 3,936 | 100-week average and the October 2025 launch low | A 25bp hike does not close through this. |
-| Only if that close fails | 3,731 – 3,772 | 3,744 – 3,786 | Untouched weekly bullish fair value gap from Sep 2025 | Not a target of one hike. |
+| Shelf | Spot | What it actually is | How it behaves on a hike |
+| --- | --- | --- | --- |
+| Nearest liquidity | 3,976 – 4,000 | Round 4,000, plus the 23 Oct and 26 Oct equal lows | Already tested twice this week. A hike drives through it. |
+| First strong floor | 3,942 – 3,963 | The 2026 swing low | Where a normal 25bp hike stops. |
+| Line in the sand | 3,888 – 3,923 | 100-week average and the October 2025 launch low | A 25bp hike does not close through this. |
+| Only if that close fails | 3,731 – 3,772 | Untouched weekly bullish fair value gap from Sep 2025 | Not a target of one hike. |
 
 The **3,942–3,963 spot** band is the strongest nearby support, and it is traded demand rather than a gap:
 
@@ -198,12 +198,12 @@ The weekly 200-period average is down at 3,234 futures. It is not part of this d
 
 A lower rate cuts the opportunity cost of holding gold and usually softens the dollar, so the metal is bought. The day high does not survive a real cut. The first supply can go too. The ceiling is the weekly-average cluster.
 
-| Shelf | Spot (order) | Futures (signal) | What it actually is | How it behaves on a cut |
-| --- | --- | --- | --- | --- |
-| Day high | 4,071 | 4,084 | 28 Oct high, 4-hour EMA50, midpoint of the daily bearish gap | A cut goes through it. |
-| First strong supply | 4,106 – 4,151 | 4,119 – 4,164 | Breakdown origin of the last two weeks | Real resistance. A true 25bp cut can still clear it. |
-| Ceiling of this rally | 4,205 – 4,285 | 4,218 – 4,298 | Weekly averages, daily EMA50 and EMA100, two bearish gaps, October highs | Where a cut-rally stops. |
-| Only if a later daily close clears 4,285 | 4,296 – 4,339, then 4,407 | 4,309 – 4,352, then 4,420 | 25 Sep bearish order block, then the daily EMA200 | Not a same-night target. |
+| Shelf | Spot | What it actually is | How it behaves on a cut |
+| --- | --- | --- | --- |
+| Day high | 4,071 | 28 Oct high, 4-hour EMA50, midpoint of the daily bearish gap | A cut goes through it. |
+| First strong supply | 4,106 – 4,151 | Breakdown origin of the last two weeks | Real resistance. A true 25bp cut can still clear it. |
+| Ceiling of this rally | 4,205 – 4,285 | Weekly averages, daily EMA50 and EMA100, two bearish gaps, October highs | Where a cut-rally stops. |
+| Only if a later daily close clears 4,285 | 4,296 – 4,339, then 4,407 | 25 Sep bearish order block, then the daily EMA200 | Not a same-night target. |
 
 **Spot 4,106–4,151** is strong, and it is still only the last leg:
 

@@ -6,7 +6,7 @@ Analyze the GOLD (XAUUSD) chart with smart-money structure, ICT dealing ranges, 
 
 **28 October 2026, 18:03 Asia/Dhaka. Trade the spot chart. Spot mid 4,045. Stay flat until a spot level breaks.**
 
-Structure is taken from December COMEX gold, which is about **$13 above spot** today. Every order below is the spot price; the futures twin is in [ANALYSIS.md](ANALYSIS.md).
+Every price below is spot XAUUSD. The level work is in [ANALYSIS.md](ANALYSIS.md).
 
 - Half-size spot sell at **4,065–4,073** only after a 15-minute close back under 4,055 (stop 4,081, target 4,029), or after a 15-minute close under **4,017**.
 - Main spot sell at **4,119–4,148** if the midnight spike reaches it and rejects. A 1-hour close above **4,159** cancels it.
